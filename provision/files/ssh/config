@@ -1,0 +1,16 @@
+Host *
+  User                   vagrant
+  IdentityFile           ~/.ssh/id_rsa.ansible
+  IdentitiesOnly         yes
+  UserKnownHostsFile     /dev/null
+  StrictHostKeyChecking  no
+  VerifyHostKeyDNS       no
+  KeepAlive              yes
+  ForwardX11             no
+  ForwardAgent           yes
+  ServerAliveInterval    15
+  ServerAliveCountMax    4
+  Compression            yes
+  CheckHostIP            yes
+  LogLevel               quiet
+  Port                   22

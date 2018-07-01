@@ -1,0 +1,12 @@
+---
+master:
+  hostname: ansiblecontroller
+  box: 'centos/7'
+  ip: '192.168.33.2'
+nodes:
+  - hostname: ansibletarget1
+    box: 'centos/7'
+    ip: '192.168.33.3'
+  - hostname: ansibletarget2
+    box: 'centos/7'
+    ip: '192.168.33.4'
